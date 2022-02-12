@@ -1,0 +1,75 @@
+html{
+    font-family: sans-serif;
+    background-image: url("Background.png");
+    background-color: #f0f0f0;
+}
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse
+}
+h1{
+    text-align: center;
+}
+tr{
+    text-align: left;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+.form-control{
+    background:#f0f0f0;
+    border: .5px solid black;
+    
+}
+
+.table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd
+}
+.table-bordered{
+    border: 1px solid #ddd
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ddd
+}
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+.btn-primary{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4
+}
+.btn-top{
+    position: fixed;
+    top: 25px;
+    right: 45px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4
+}
+
+
